@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Favorite Ice Cream</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your favorite ice cream flavors</h1>
+      <form id="flavors">
+        <div class="form-group">
+          <label for="first">Favorite</label>
+          <input type="text" class="form-control" id="first">
+        </div>
+        <div class="form-group">
+          <label for="second">Second Favorite</label>
+          <input type="text" class="form-control" id="second">
+        </div>
+        <div class="form-group">
+          <label for="third">Kinda like</label>
+          <input type="text" class="form-control" id="third">
+        </div>
+        <div class="form-group">
+          <label for="fourth">Worst flavor</label>
+          <input type="text" class="form-control" id="fourth">
+        </div>
+        <button type="submit" class="btn">Click Me!</button>
+      </form>
+      <div id="output">
+        <span class="answer"></span>
+      </div>
+    </div>
+  </body>
+</html>
